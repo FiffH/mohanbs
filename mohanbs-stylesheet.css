@@ -1,4 +1,9 @@
-                        /*GENERAL*/
+                    /*COLOURS*/
+/*MAROON = #732534*/
+/*ORANGE = #DF7200*/
+
+
+                    /*GENERAL*/
 
 
 body, html {
@@ -30,16 +35,21 @@ body, html {
     text-shadow: 4px 4px 5px black;
 }
 
-                        /*HOME BANNER*/
+                        /*NAVBAR*/
+.navbar{
+    height: 3rem;
+}
 
+                        /*HOME PAGE*/
 
 #home-banner{
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
-    background-image: url("images/construction-img.jpg");
+    background-image: url("images/mohan-site01.jpg");
     padding: 0;
     display: flex;
     flex: 0 1 auto;
+    border-bottom: thin solid darkgrey;
 }
 
 @media (max-width: 800px){
@@ -49,15 +59,53 @@ body, html {
     }
 }
 
-#home-info{
-    background-color: rgba(60, 60, 60, 0.7);
-    width: 40rem;
-    height: 100%;
-    float: left; 
-    margin: 0;  
-    flex: 0 1 auto;
-    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.2); 
+#mohan-banner-title{
+    color: #732534;
+    font-size: 5vw;
 }
+
+@media (max-width: 800px){
+    #mohan-banner-title{
+        font-size: 7vw;
+        background-color: rgba(0,0,0,0.5);
+        padding: 5px
+    }
+}
+
+#home-info{
+    margin-left: 0 auto;
+    margin-top: 45vh;
+}
+
+                        /*SERVICES PAGE*/
+
+#services-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: floralwhite;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#services-title{
+    width: 50%;
+    color: black;
+    text-align: center;
+    margin-top: auto;
+}
+
+#services-title h1{
+    font-size: 10em;
+}
+
+#services-list{
+    background-color: black;
+    width: 50%;
+}
+
 
 
 
