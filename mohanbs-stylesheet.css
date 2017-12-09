@@ -14,9 +14,6 @@ body, html {
     position: relative;
 }
 
-*{
-    margin: 0;
-}
 
 
                         /*TEXT*/
@@ -27,7 +24,7 @@ body, html {
 }
 
 .secondary-text{
-    font-family: "Cantarell";
+    font-family: "Fjalla One";
 }
 
 .banner-text{
@@ -60,6 +57,7 @@ body, html {
 
 #p-number p{
     margin-left: 1em;
+    font-size: 1.5rem;
 }
                         /*HOME PAGE*/
 
@@ -87,15 +85,17 @@ body, html {
 
 @media (max-width: 800px){
     #mohan-banner-title{
-        font-size: 7vw;
+        font-size: 8vw;
         background-color: rgba(0,0,0,0.5);
-        padding: 5px
+        padding: 5px;
+        width: 100vw;
     }
 }
 
 #home-info{
     margin-left: 0 auto;
-    margin-top: 45vh;
+    margin-top: 35vh;
+    padding: 0;
 }
 
                         /*SERVICES PAGE*/
@@ -103,7 +103,9 @@ body, html {
 #services-page{
     height: 100vh;
     width: 100vw;
-    background-color: floralwhite;
+    background-color: antiquewhite;
+    margin-left: 0;
+    padding: 0;
 }
 
 .row-container {
@@ -115,7 +117,7 @@ body, html {
     color: black;
     text-align: center;
     margin-left: auto;
-    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 #services-title h1{
@@ -135,9 +137,25 @@ body, html {
     padding: 1em;
 }
 
+@media (max-width:800px){
+    .icon-container{
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
 .icon-container img{
     height: 100%;
     width: 100%;
+}
+
+#services-info-panel{
+    margin-top: 1rem;
+    margin-top: 1rem;
+    height: 60vh;
+    width: 100vw;
+    background-color: slategrey;
+    float: left;
 }
 
 
