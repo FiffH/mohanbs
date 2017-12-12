@@ -128,19 +128,43 @@ html,body {
     font-size: 5em;
 }
 
-#carousel-container{
-    height: 50vh;
-    width: 60vw;
-    background-color: slategrey;
+#services-row{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 100vw;
 }
 
-.carousel-img{
-    height: 50vh;
-    margin: 0 auto;
+.services-card{
+    height: 15rem;
+    width: 10rem;
+    border: 2px solid black;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
 }
 
-.carousel-caption{
-   padding: 4rem
+#services-info-container{
+    margin-top: 1rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    border-top: medium solid #732534;
+    border-bottom: medium solid #732534;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.services-info-text{
+    text-align: center;
+}
+
+.more-info:hover{
+    cursor: pointer;
+    color: #732534;
 }
 
 
