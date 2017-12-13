@@ -147,6 +147,7 @@ html,body {
         flex-direction: row;
         overflow: scroll;
         flex-wrap: nowrap;
+        justify-content: flex-start;
     }
 }
 
