@@ -23,7 +23,7 @@ html,body {
 }
 
 .secondary-text{
-    font-family: "Fjalla One";
+    font-family: "Lalezar";
 }
 
 .tertiary-text{
@@ -112,13 +112,14 @@ html,body {
                         /*SERVICES PAGE*/
 
 #services-page{
-    height: 100vh;
     width: 100vw;
     background-color: antiquewhite;
     margin-left: 0 auto;
     padding: 0;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 #services-title{
@@ -128,7 +129,7 @@ html,body {
 }
 
 #services-title h1{
-    font-size: 5em;
+    font-size: 4em;
 }
 
 #services-row{
@@ -161,7 +162,6 @@ html,body {
 
 #services-info-container{
     margin-top: 1rem;
-    height: 10rem;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -169,6 +169,7 @@ html,body {
     border-bottom: medium solid #732534;
     padding: 1rem;
     overflow: hidden;
+    margin-bottom: 3rem;
 }
 
 .services-info-text{
@@ -180,6 +181,95 @@ html,body {
     color: #732534;
 }
 
+#dd-card{
+   background-image: url("http://lorempixel.com/output/nightlife-h-c-380-640-8.jpg") 
+}
+
+#ds-card{
+   background-image: url("http://lorempixel.com/output/nature-h-c-380-640-6.jpg") 
+}
+
+#cb-card{
+   background-image: url("http://lorempixel.com/output/animals-h-c-380-640-9.jpg") 
+}
+
+#cc-card{
+   background-image: url("http://lorempixel.com/output/city-h-c-380-640-5.jpg") 
+}
+
+#cw-card{
+   background-image: url("http://lorempixel.com/output/sports-h-c-380-640-3.jpg") 
+}
+
+#wfc-card{
+   background-image: url("http://lorempixel.com/output/abstract-h-c-380-640-4.jpg") 
+}
+
+#rd-card{
+   background-image: url("http://lorempixel.com/output/animals-h-c-380-640-7.jpg") 
+}
+
+#ss-card{
+   background-image: url("http://lorempixel.com/output/city-h-c-380-640-4.jpg") 
+}
 
 
 
+
+                    /*CONTACT US PAGE*/
+
+
+.contact-us-page{
+    background-color: slategrey;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: white;
+}
+
+#contact-us-title{
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#contact-us-title h1{
+    font-size: 4em;
+}
+
+#form-container{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-form .form-field{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    border-bottom: 2px dashed white;
+}
+
+#form-name, #form-company{
+    width: 15rem;
+}
+
+#form-email{
+    width: 25rem;
+}
+
+#form-message{
+    
+}
+
+#form-submit{
+    margin-left: 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
