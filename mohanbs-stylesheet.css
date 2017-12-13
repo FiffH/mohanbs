@@ -120,6 +120,8 @@ html,body {
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 0;
+    background-image: url(images/blueprint2.jpg);
+    background-attachment: fixed;
 }
 
 #services-title{
@@ -137,6 +139,7 @@ html,body {
     justify-content:center;
     flex-wrap: wrap;
     width: 100vw;
+    margin-bottom: 2rem;
 }
 
 @media(max-width: 800px){
