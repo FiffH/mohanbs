@@ -26,6 +26,9 @@ html,body {
     font-family: "Fjalla One";
 }
 
+.tertiary-text{
+    font-family: "Barlow";
+}
 .text-shadow{
     text-shadow: 4px 4px 5px black;
 }
@@ -135,6 +138,14 @@ html,body {
     width: 100vw;
 }
 
+@media(max-width: 800px){
+    #services-row{
+        flex-direction: row;
+        overflow: scroll;
+        flex-wrap: nowrap;
+    }
+}
+
 .services-card{
     height: 15rem;
     width: 10rem;
@@ -145,6 +156,7 @@ html,body {
     flex-wrap: wrap;
     justify-content: center;
     text-align:center;
+    flex-shrink: 0;
 }
 
 #services-info-container{
@@ -152,6 +164,7 @@ html,body {
     height: 10rem;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     border-top: medium solid #732534;
     border-bottom: medium solid #732534;
     padding: 1rem;
