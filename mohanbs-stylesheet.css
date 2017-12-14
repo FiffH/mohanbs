@@ -23,22 +23,19 @@ html,body {
 }
 
 .secondary-text{
-    font-family: "Lalezar";
+    font-family: "Poppins";
 }
 
 .tertiary-text{
     font-family: "Barlow";
 }
 .text-shadow{
-    text-shadow: 4px 4px 5px black;
+    text-shadow: 4px 4px 10px black;
 }
 
                         /*NAVBAR*/
 .navbar{
     height: 3rem;
-}
-
-.navbar {
     color: white;
 }
 
@@ -53,22 +50,12 @@ html,body {
     margin-left: 1rem;
     z-index: 1;
     color: white;
-    text-shadow: 4px 4px 5px black;
 }
 
 #p-number p{
     margin-left: 1em;
     font-size: 1.5rem;
 }
-
-#services-sidenav .navbar{
-    height: 100%;
-}
-
-.nav-link{
-    color: lightgrey;
-}
-
                         /*HOME PAGE*/
 
 #home-banner{
@@ -174,10 +161,12 @@ html,body {
     padding: 1rem;
     overflow: hidden;
     margin-bottom: 3rem;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .services-info-text{
     text-align: center;
+    color: white;
 }
 
 .more-info:hover{
@@ -223,9 +212,8 @@ html,body {
                     /*CONTACT US PAGE*/
 
 
-.contact-us-page{
+#contact-us-page{
     background-color: slategrey;
-    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -243,37 +231,51 @@ html,body {
     font-size: 4em;
 }
 
-#form-container{
-    display: flex;
+#contact-row{
+    width: 100vw;
+    margin-top: 2rem;
+    display:flex;
     flex-shrink: 0;
+    flex-grow: 0;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media(max-width:800px){
+    #contact-row{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+.contact-card{
+    height: 17rem;
+    width: 20rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
     flex-direction: column;
-    border: 2px solid white;
-    width: 60vw;
-    margin-left: auto;
-    margin-right: auto;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 2rem
 }
 
-#contact-form .form-field{
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    margin-left: 1rem;
-    border-bottom: 2px dashed white;
+@media(max-width:800px){
+    .contact-card{
+        margin: 0.5rem
+    }
 }
 
-#form-name, #form-company{
-    width: 15rem;
+.c-card-details{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-#form-email{
-    width: 25rem;
-}
-
-#form-message{
-    
-}
-
-#form-submit{
-    margin-left: 1rem;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+#phone-card .c-card-details{
+    font-size: 2rem;
 }
