@@ -39,10 +39,6 @@ html,body {
     color: white;
 }
 
-.navbar .fa{
-    margin-left: 1em;
-}
-
 #p-number{
     margin-top: 3.5em;
     position: fixed;
@@ -175,35 +171,35 @@ html,body {
 }
 
 #dd-card{
-   background-image: url("http://lorempixel.com/output/nightlife-h-c-380-640-8.jpg") 
+   background-image: url("https://lorempixel.com/output/nightlife-h-c-380-640-8.jpg") 
 }
 
 #ds-card{
-   background-image: url("http://lorempixel.com/output/nature-h-c-380-640-6.jpg") 
+   background-image: url("https://lorempixel.com/output/nature-h-c-380-640-6.jpg") 
 }
 
 #cb-card{
-   background-image: url("http://lorempixel.com/output/animals-h-c-380-640-9.jpg") 
+   background-image: url("https://lorempixel.com/output/animals-h-c-380-640-9.jpg") 
 }
 
 #cc-card{
-   background-image: url("http://lorempixel.com/output/city-h-c-380-640-5.jpg") 
+   background-image: url("https://lorempixel.com/output/city-h-c-380-640-5.jpg") 
 }
 
 #cw-card{
-   background-image: url("http://lorempixel.com/output/sports-h-c-380-640-3.jpg") 
+   background-image: url("https://lorempixel.com/output/sports-h-c-380-640-3.jpg") 
 }
 
 #wfc-card{
-   background-image: url("http://lorempixel.com/output/abstract-h-c-380-640-4.jpg") 
+   background-image: url("https://lorempixel.com/output/abstract-h-c-380-640-4.jpg") 
 }
 
 #rd-card{
-   background-image: url("http://lorempixel.com/output/animals-h-c-380-640-7.jpg") 
+   background-image: url("https://lorempixel.com/output/animals-h-c-380-640-7.jpg") 
 }
 
 #ss-card{
-   background-image: url("http://lorempixel.com/output/city-h-c-380-640-4.jpg") 
+   background-image: url("https://lorempixel.com/output/city-h-c-380-640-4.jpg") 
 }
 
 
