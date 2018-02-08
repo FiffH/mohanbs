@@ -94,7 +94,6 @@ html,body {
     height: 100%;
     transform: skewY(-4deg);
     transform-origin: top left;
-
     
     background-image: url("../assets/london-skyline-red.png");
     background-size: auto auto;
@@ -104,18 +103,10 @@ html,body {
 
 #landing-page{
     height: 100vh;
-    width: 100vw;
     background-color: whitesmoke;
     padding: 0;
     display: flex;
     flex: 0 1 auto;
-}
-
-@media (max-width: 800px){
-    #home-banner{
-        height: 100vh;
-        width: 100%;
-    }
 }
 
 #landing-page-title{
@@ -123,16 +114,6 @@ html,body {
     font-size: 5vw;
     margin-top: 17%;
     /* text-align: center; */
-}
-
-
-@media (max-width: 800px){
-    #landing-page-title{
-        font-size: 8vw;
-        background-color: rgba(0,0,0,0.5);
-        padding: 5px;
-        width: 100vw;
-    }
 }
 
 #tagline{
@@ -144,12 +125,34 @@ html,body {
     width: 30%;
 }
 
+@media (max-width: 800px){
+
+    #header-bg{
+        transform: skewY(-7deg);
+    }
+    #home-banner{
+        height: 100vh;
+        width: 100%;
+    }
+
+    #landing-page-title{
+        font-size: 10vw;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 1rem;
+    }
+
+    #tagline{
+        font-size: 4vw;
+    }
+}
+
 
                         /*SERVICES PAGE*/
 
 #services-page{
     background-color: whitesmoke;
-    width: 100vw;
     margin-left: 0 auto;
     padding: 0;
     display: flex;
@@ -171,9 +174,9 @@ html,body {
 
 #services-row{
     display: flex;
+    width: 100%;
     justify-content:center;
     flex-wrap: wrap;
-    width: 100vw;
     margin-bottom: 2rem;
 }
 
@@ -246,7 +249,6 @@ html,body {
 
 #footer{
     background-color: #331017;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -254,7 +256,6 @@ html,body {
 }
 
 #contact-column{
-    width: 100vw;
     margin-top: 2rem;
     display:flex;
     flex-shrink: 0;
