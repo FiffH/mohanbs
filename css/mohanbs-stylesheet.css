@@ -1,0 +1,306 @@
+                    /*COLOURS*/
+/*MAROON = #732534*/
+/*DARKER = #331017*/
+/*ORANGE = #DF7200*/
+
+
+                    /*GENERAL*/
+
+
+html,body {
+    height: 100%;
+    margin: 0;
+    overflow:auto;
+    overflow:initial;
+    background-color: black;
+}
+
+                        /*TEXT*/
+
+.primary-text{
+    font-family: "Biryani";
+    text-transform: uppercase;
+}
+
+.secondary-text{
+    font-family: "Poppins";
+}
+
+.text-shadow{
+    text-shadow: 4px 4px 10px black;
+}
+
+                        /*NAVBAR*/
+.navbar{
+    height: 3rem;
+    background-color: #732534;
+    color: white;
+    border-bottom: thin solid white;
+}
+
+.navbar a{
+    color: white;
+}
+
+@media (max-width: 800px){
+    .navbar a{
+        background-color: #732534;
+        border: none;
+    }
+}
+
+.navbar-brand{
+    background-color: #732534;
+    border-bottom: thick solid #732534;
+}
+
+.dropdown-menu{
+    background-color: #331017;
+    border-radius: 10%;
+    border-radius:0%;
+    border-bottom-right-radius: 10%;
+}
+
+@media (max-width: 800px){
+    .dropdown-menu{
+        border-radius: 0%;
+    }
+}
+
+
+.dropdown-menu a{
+    border-bottom: none;
+}
+
+.dropdown-menu a:hover{
+    border-bottom: none;
+    background-color:#DF7200; 
+}
+
+#right-nav i{
+    margin: 5px;
+}
+
+
+                        /*HOME PAGE*/
+
+#header-bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: skewY(-4deg);
+    transform-origin: top left;
+
+    
+    background-image: url("../assets/london-skyline-red.png");
+    background-size: auto auto;
+    background-color: #732534;
+    background-position: top;
+}
+
+#landing-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    padding: 0;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+@media (max-width: 800px){
+    #home-banner{
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+#landing-page-title{
+    color: white;
+    font-size: 5vw;
+    margin-top: 17%;
+    /* text-align: center; */
+}
+
+
+@media (max-width: 800px){
+    #landing-page-title{
+        font-size: 8vw;
+        background-color: rgba(0,0,0,0.5);
+        padding: 5px;
+        width: 100vw;
+    }
+}
+
+#tagline{
+    color: white;
+    font-size: 1.5vw;
+}
+
+#landing-page-img{
+    width: 30%;
+}
+
+
+                        /*SERVICES PAGE*/
+
+#services-page{
+    background-color: whitesmoke;
+    width: 100vw;
+    margin-left: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#services-title{
+    color: black;
+    text-align: center;
+    padding-top: 3rem;
+    z-index: 3;
+}
+
+#services-title h1{
+    font-size: 4em;
+}
+
+#services-row{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 800px){
+    #services-row{
+        flex-direction: row;
+        overflow: scroll;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
+.services-card{
+    height: 15rem;
+    width: 10rem;
+    border: 2px solid black;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align:center;
+    flex-shrink: 0;
+}
+
+.services-card:hover{
+    cursor: pointer;
+    background-color: #732534;
+    color: white;
+    box-shadow: 0px 5px 8px black;
+}
+
+#services-info-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-top: medium solid #732534;
+    border-bottom: medium solid #732534;
+    padding: 1rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    background-color: rgba(0,0,0,0.6);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23331017' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%238d2c40'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: auto auto;
+    background-position: center;
+}
+
+.services-info-text a{
+    color: #DF7200;
+}
+
+.services-info-text{
+    text-align: center;
+    color: white;
+}
+
+.services-card{
+   background-color: whitesmoke; 
+   border-bottom-right-radius: 10%;
+}
+
+.card-img{
+    width: 100%;
+    top: 0;
+}
+
+                    /*FOOTER*/
+
+
+#footer{
+    background-color: #331017;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: white;
+}
+
+#contact-column{
+    width: 100vw;
+    margin-top: 2rem;
+    display:flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media(max-width:800px){
+    #contact-row{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+.contact-card{
+    max-width: 20rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 5rem;
+}
+
+.contact-card i{
+    margin-right: 1rem;
+}
+
+@media(max-width:800px){
+    .contact-card{
+        margin: 0.5rem
+    }
+}
+
+.c-card-details{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#footer i{
+    vertical-align: middle;
+}
