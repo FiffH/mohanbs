@@ -4,7 +4,7 @@
 /*ORANGE = #DF7200*/
 
 
-                    /*GENERAL*/
+                    /*INIT*/
 
 
 html,body {
@@ -13,6 +13,12 @@ html,body {
     overflow:auto;
     overflow:initial;
     background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
 }
 
                         /*TEXT*/
