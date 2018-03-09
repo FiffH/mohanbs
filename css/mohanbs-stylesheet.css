@@ -15,12 +15,6 @@ html,body {
     background-color: whitesmoke;
 }
 
-::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 10px;
-    border: 2px solid #ffffff;
-}
-
 hr { 
   border: 0; 
   height: 1px; 
@@ -340,7 +334,7 @@ hr {
 
 #cs-title{
     color: #732534;
-    font-size: 3vw;
+    /* font-size: 3vw; */
     margin: 1rem;
 }
 
@@ -358,6 +352,7 @@ hr {
 
 .case-study-img{
     width: 100%;
+    height: auto;
 }
 
 .case-study-text{
@@ -374,6 +369,7 @@ hr {
     flex-grow: 0;
     flex-shrink: 0;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
+    flex-wrap: wrap;
 }
