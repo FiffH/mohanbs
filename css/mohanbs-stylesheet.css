@@ -13,6 +13,7 @@ html,body {
     overflow:auto;
     overflow:initial;
     background-color: whitesmoke;
+    padding-top: 20px;
 }
 
 hr { 
@@ -371,7 +372,7 @@ hr {
 /*//////SERVICES/////*/
 
 #services-title{
-    margin: 1rem auto 1rem auto;
+    margin: 0 auto 1rem auto;
     color: #732534;
 }
 

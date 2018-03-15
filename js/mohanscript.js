@@ -8,4 +8,6 @@ $(document).ready(function() {
         $('#'+(event.target.id)+'-text').show();
         $('#'+(event.target.id)+'-text').addClass("animated fadeInDown");
     });
+
+    window.addEventListener("hashchange", function() { scrollBy(0, -50) })
 });
