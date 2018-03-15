@@ -385,7 +385,7 @@ hr {
 }
 
 .serv-img{
-    max-height: 15rem;
+    height: 15rem;
     margin-right: 1.5rem;
     display: flex;
     flex-grow: 0;
@@ -403,4 +403,27 @@ hr {
 
 .serv-text-div h1{
     color: #732534;
+}
+
+@media (max-width: 800px){
+    .service-div{
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+        
+    }
+    .serv-img{
+        margin: auto;
+        height: 10rem;
+        justify-self: center;
+    }
+
+    .serv-text-div{
+        height: 10rem;
+        overflow: scroll;
+        flex-wrap: nowrap;
+        -moz-box-shadow: inset 0 -10px 10px -10px #000000;
+        -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
+        box-shadow: inset 0 -10px 10px -10px #000000;
+    }
 }
