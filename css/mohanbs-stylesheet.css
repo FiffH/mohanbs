@@ -52,6 +52,10 @@ hr {
     color: white;
 }
 
+.nav-link{
+    padding-bottom: 15px;
+}
+
 @media (max-width: 800px){
     .navbar a{
         background-color: #732534;
@@ -62,6 +66,11 @@ hr {
 .navbar-brand{
     background-color: #732534;
     border-bottom: thick solid #732534;
+}
+
+.navbar-brand img{
+    height: 30px;
+    width: 30px;
 }
 
 .dropdown-menu{
@@ -122,9 +131,16 @@ hr {
 
 #landing-page-title{
     color: white;
-    font-size: 5vw;
+    font-size: 500%;
     margin-top: 17%;
     /* text-align: center; */
+}
+
+#title{
+    display: inline-flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 #tagline{
