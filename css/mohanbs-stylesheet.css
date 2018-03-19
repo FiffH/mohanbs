@@ -252,6 +252,33 @@ hr {
     top: 0;
 }
 
+/*/////ACCREDITATION////*/
+
+#cred-container h1{
+    text-align: center;
+    color: #732534;
+}
+
+.cred-row{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: medium solid #331017;
+    border-bottom: medium solid #331017;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cred-row img{
+    height: 100px;
+    width: auto;
+    margin: 2px;
+    border: solid thin black;
+}
+
                     /*FOOTER*/
 
 
