@@ -129,11 +129,15 @@ hr {
 
 #tagline{
     color: white;
-    font-size: 1.5vw;
 }
 
 #landing-page-img{
     width: 30%;
+}
+
+#intro-text{
+    color: white;
+    padding-right: 10rem;
 }
 
 @media (max-width: 800px){
@@ -157,7 +161,12 @@ hr {
     #tagline{
         font-size: 4vw;
     }
+    
+    #intro-text{
+        padding-right: 0;
+    }
 }
+
 
 
                         /*SERVICES Shortcut*/
