@@ -169,6 +169,17 @@ hr {
 
 .carousel{
     max-height: 25rem;
+    overflow: hidden;
+}
+
+.carousel img {
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.carousel-item{
+    overflow: hidden;
 }
 
 
