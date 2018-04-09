@@ -13,7 +13,6 @@ html,body {
     overflow:auto;
     overflow:initial;
     background-color: whitesmoke;
-    padding-top: 20px;
 }
 
 hr { 
@@ -103,7 +102,7 @@ hr {
 
                         /*HOME PAGE*/
 
-#header-bg {
+/* #header-bg {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -119,42 +118,59 @@ hr {
     background-color: #732534;
     background-position: top;
     
-}
+} */
 
-#landing-page{
+/* #landing-page{
     height: 100vh;
     background-color: whitesmoke;
     padding: 0;
     display: flex;
     flex: 0 1 auto;
+} */
+#banner{
+    display: flex;
+    flex-direction: row;
+    background-color: #732534;
+    padding: 1rem;
+    margin-top: 0;
+    justify-content: space-between;
+}
+
+#banner-left{
+    flex-basis: 70%;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+#banner-right{
+    justify-content: flex-start;
+}
+
+#pn-container{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+}
+
+.fa-phone{
+    padding: 5px;
 }
 
 #landing-page-title{
     color: white;
     font-size: 500%;
-    margin-top: 17%;
     /* text-align: center; */
-}
-
-#title{
-    display: inline-flex;
-    flex-direction: row;
-    flex-grow: 0;
-    flex-shrink: 0;
 }
 
 #tagline{
     color: white;
 }
 
-#landing-page-img{
-    width: 30%;
+.carousel{
+    max-height: 25rem;
 }
 
-#intro-text{
-    color: white;
-    padding-right: 10rem;
-}
 
 @media (max-width: 800px){
 
@@ -180,6 +196,15 @@ hr {
     
     #intro-text{
         padding-right: 0;
+    }
+
+    #banner{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #banner-left{
+        text-align: center;
     }
 }
 
