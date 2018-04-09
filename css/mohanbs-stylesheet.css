@@ -170,16 +170,10 @@ hr {
 .carousel{
     max-height: 25rem;
     overflow: hidden;
+    overflow: hidden;
 }
 
 .carousel img {
-    top: 0;
-    left: 0;
-    object-fit: contain;
-}
-
-.carousel-item{
-    overflow: hidden;
 }
 
 
