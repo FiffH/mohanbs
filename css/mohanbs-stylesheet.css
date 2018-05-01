@@ -12,6 +12,7 @@ html,body {
     margin: 0;
     overflow:auto;
     overflow:initial;
+    overflow-x:hidden;
     background-color: whitesmoke;
 }
 
@@ -177,9 +178,8 @@ html,body {
         width: 100%;
     } */
 
-    .carousel{
-        width: 200%;
-
+    .carousel-item img{
+        object-fit: cover;
     }
 
     #landing-page-title{
