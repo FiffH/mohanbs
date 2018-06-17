@@ -40,7 +40,7 @@ html,body {
 }
 
 .navbar a{
-    color: white;
+    color: white !important;
 }
 
 .nav-link{
